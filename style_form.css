@@ -1,0 +1,95 @@
+body{
+    background-image: url(nen4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 300px;
+    color: black;
+    text-align: center;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: black;
+    font-size: 14px;
+}
+
+.login-box input::placeholder {
+    color: black;
+}
+
+.login-box .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0 20px;
+    color: black;
+}
+.login-box .options label{
+    color: black;
+}
+.login-box .forgot{
+    text-decoration: none;
+    color: black;
+}
+
+.login-box .forgot:hover{
+    text-decoration: underline;
+}
+.login-box .button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-box .button:hover {
+    background-color: #ddd;
+}
+
+.login-box p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+}
+.login-box p a{
+    margin-left: 10px;
+}
+.login-box .dangky{
+    color: white;
+    text-decoration: none;
+}
+.login-box .dangky:hover{
+    color: rgb(255, 174, 0);
+    text-decoration: underline;
+}
